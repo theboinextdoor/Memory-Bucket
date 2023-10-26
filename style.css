@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nosifer&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    /*background: linear-gradient(139deg, #1aa2a9, #c92020);*/
+    background-image: url("images/bg1.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    padding-top: 2%; /*Space from the top*/
+    padding-left: 8%; /*Space from the left side*/
+}
+
+.container h1 {
+    font-family: 'Nosifer', sans-serif;
+    display: flex;
+    color: rgba(134, 247, 241, 0.81);
+    align-items: center;
+    font-size: 50px;
+    font-weight: 900;
+
+}
+
+.container h1 img {
+    width: 170px;
+}
+
+.container button img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.container button {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(139deg, #b289cd, #aa5968);
+    color: #fff;
+    font-size: 18px;
+    outline: 0;
+    border: 0;
+    border-radius: 40px;
+    padding: 15px 25px;
+    margin: 1px 50px 20px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+.input-box {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    min-height: 200px;
+    background: rgba(134, 247, 241, 0.81);
+    color: #333;
+    padding: 20px;
+    margin: 1px 50px 10px 20px;
+    outline: none;
+    border-radius: 5px;
+    /*background: transparent;*/
+    opacity: 0.8;
+}
+
+.input-box img {
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
