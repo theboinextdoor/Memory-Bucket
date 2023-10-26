@@ -3,12 +3,12 @@ const noteContainer = document.querySelector(".noteContainer");
 let notes = document.querySelectorAll(".input-box");
 
 function getData(){
-    noteContainer.innerHTML = localStorage.getItem("notes");
+    noteContainer.innerHTML = localStorage.getItem("data");
 }
 getData();
 
 function showData(){
-    localStorage.setItem("notes", noteContainer.innerHTML);
+    localStorage.setItem("data", noteContainer.innerHTML);
 }
 
 myBtn.addEventListener("click", ()=>{

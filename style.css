@@ -11,7 +11,7 @@
     width: 100%;
     min-height: 100vh;
     /*background: linear-gradient(139deg, #1aa2a9, #c92020);*/
-    background-image: url("images/bg1.jpg");
+    background-image: url("images/bg2.jpg");
     background-position: center;
     background-size: cover;
     color: #fff;
@@ -66,7 +66,7 @@
     outline: none;
     border-radius: 5px;
     /*background: transparent;*/
-    opacity: 0.8;
+    opacity: 0.4;
 }
 
 .input-box img {
